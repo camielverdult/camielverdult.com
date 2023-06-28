@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Raspoutine Medium';
+  /* Add truetype & woff2 file */
+   src: url(JetBrainsMono-Medium.ttf) format('truetype');
+   src: url(JetBrainsMono-Regular.woff2) format('woff');
+ }
+ 
+
+* {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+:root {
+  --background-color: white;
+  --text-color: rgb(45, 45, 45);
+  --internship-color: rgb(20, 34, 134);
+  --work-color: rgb(49, 113, 222);
+}
+
+/* 'light' or 'dark' options */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: rgb(2, 4, 9);
+    --text-color: white;
+    --internship-color: rgb(60, 130, 200);
+    --work-color: rgb(148, 193, 248);
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#internship {
+  color: var(--internship-color);
+}
+
+#work {
+  color: var(--work-color);
+}
