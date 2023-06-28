@@ -1,0 +1,33 @@
+* {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+:root {
+  --background-color: #e5e5e5;
+  --text-color: rgb(45, 45, 45);
+  --internship-color: rgb(20, 34, 134);
+  --work-color: rgb(49, 113, 222);
+}
+
+/* 'light' or 'dark' options */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: rgb(2, 4, 9);
+    --text-color: #fff;
+    --internship-color: rgb(60, 130, 200);
+    --work-color: rgb(148, 193, 248);
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#internship {
+  color: var(--internship-color);
+}
+
+#work {
+  color: var(--work-color);
+}
