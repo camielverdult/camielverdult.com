@@ -604,14 +604,9 @@ video {
   color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
-.text-sky-500 {
+.text-sky-600 {
   --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(2 132 199 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -643,5 +638,10 @@ video {
   .dark\:text-sky-300 {
     --tw-text-opacity: 1;
     color: rgb(125 211 252 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
