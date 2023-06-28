@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url(JetBrainsMono-Regular.woff2 ) format('woff2'),
+        url(JetBrainsMono-Regular.ttf ) format('truetype');
+}
+
+* { 
+  font-family: 'Jetbrains Mono', monospace;
+}
